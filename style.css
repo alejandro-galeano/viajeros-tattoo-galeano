@@ -8,16 +8,17 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
+    font-family: 'Arbutus Slab', serif;
     background-color: hsla(34, 65%, 80%, 1);
     margin-top: 126px;
 }
+
 
 a , li {
     text-decoration: none;
     list-style: none;   
 }
+
 
 a , p {
     color: hsla(17, 63%, 56%, 1);
@@ -56,6 +57,8 @@ a , p {
     font-weight: bold;
 }
 
+
+
 /* navegacion */
 
 .lista-header {
@@ -83,10 +86,16 @@ a , p {
 /* fin del HEADER */
 
 /* inicio carrusel */
-#carrusel {
-    display: flex;
-    justify-content: center;
+.carrusel {
+    padding: 0 10rem;
+    background-color: black;
 }
+
+.carousel-item {
+    height: 52rem;
+}
+
+
 /* fin del carrusel */
 
 /* inicio del MAIN */
